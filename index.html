@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>PJANOO</title>
+</head>
+<body>
+    <h1>My very bad version...</h1>
+    <button class = "btn" id="start">PLAY!!</button>
+
+    <button class = "btn" id="stop">STOP!!</button>
+
+    <div class="container">
+    <p>BPM</p>
+    <p id="bpm_text">128</p>
+    <input id="bpm" type="range" min="50", max="150", value="100", step="1", oninput="updateBPM(this.value)", lablel="BPM">
+    </input>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
